@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "start": "./src/example.ts -f -- -djfsn",
     "test": "pnpm eslint && pnpm prettier",
     "eslint": "eslint src",
     "prettier": "prettier src --check"
